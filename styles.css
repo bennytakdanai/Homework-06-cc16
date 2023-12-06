@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&family=Sarabun:wght@100;400;600&family=Taviraj:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: Taviraj;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('https://picsum.photos/id/190/1620/1080');
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px;
+    margin-right: 100px;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;    
+}
+
+.container{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    /* color: aliceblue; */
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:white;
+    margin-block-end: 0%;
+    margin-block-start: 0;
+}
+.container> p{
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.loadingbar{
+    width: 400px;
+    height: 15px;
+    border-radius: 2px;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 65%, rgba(255,255,255,1) 75%, rgba(196,237,240,1) 100%);
+}
+.percent{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.percent p {
+    color: aliceblue;
+}
+
+button{
+    margin-top: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color:brown;
+    color: white;
+    font-family: Taviraj;
+}
+
+.logobar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logobar i{
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+}
+footer{
+    display: flex;
+    justify-content:center ;
+    border-top: 1px solid white;
+
+}
+
+footer p{
+    color: white;
+    
+}
